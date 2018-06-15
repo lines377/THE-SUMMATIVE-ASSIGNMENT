@@ -45,7 +45,7 @@ public class Screen6 extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/theSummativePackage/Sine (2).jpg"))); // NOI18N
         jLabel3.setText("jLabel3");
 
-        jLabel4.setText("In sine law, this is displayed as 6/A = 4/45 = c/C ");
+        jLabel4.setText("In sine law, this is displayed as 5/A = 4/45 = c/C ");
 
         jButton1.setText("Next step");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -73,7 +73,7 @@ public class Screen6 extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton1)
-                .addGap(137, 137, 137))
+                .addGap(146, 146, 146))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -106,7 +106,8 @@ public class Screen6 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        this.setVisible(false);
+        new Screen7().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

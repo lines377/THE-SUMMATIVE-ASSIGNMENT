@@ -62,7 +62,7 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="146" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -105,7 +105,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="In sine law, this is displayed as 6/A = 4/45 = c/C "/>
+            <Property name="text" type="java.lang.String" value="In sine law, this is displayed as 5/A = 4/45 = c/C "/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
