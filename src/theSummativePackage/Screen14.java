@@ -116,7 +116,8 @@ public class Screen14 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       System.exit(0);
+       //ends the program
+        System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

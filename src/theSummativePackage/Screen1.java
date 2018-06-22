@@ -93,6 +93,7 @@ public class Screen1 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void LessonStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LessonStartActionPerformed
+        //starts lesson
         this.setVisible(false);
         new Screen2().setVisible(true);
     }//GEN-LAST:event_LessonStartActionPerformed

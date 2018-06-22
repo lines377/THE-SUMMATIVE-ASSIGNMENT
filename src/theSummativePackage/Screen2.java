@@ -91,6 +91,7 @@ public class Screen2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void NextPg2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextPg2ActionPerformed
+       //sets the next screen 
         this.setVisible(false);
         new Screen3().setVisible(true);
     }//GEN-LAST:event_NextPg2ActionPerformed

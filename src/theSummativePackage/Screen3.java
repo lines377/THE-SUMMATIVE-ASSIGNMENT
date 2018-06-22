@@ -118,11 +118,13 @@ public class Screen3 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void NextPg3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextPg3ActionPerformed
+       //sets the next screen 
         this.setVisible(false);
         new Screen4().setVisible(true);
     }//GEN-LAST:event_NextPg3ActionPerformed
 
     private void BackPg3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackPg3ActionPerformed
+        //sets the last screen 
         this.setVisible(false);
         new Screen2().setVisible(true);
     }//GEN-LAST:event_BackPg3ActionPerformed
